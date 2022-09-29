@@ -19,5 +19,5 @@ function addTask(event){
     taskInput.value = ""
 
     event.preventDefault()
-}
+};
 
