@@ -27,7 +27,7 @@ function addTask(e){
 }
 
 function deleteTask(e){
-    if(e.target.textContent === 'X'){
+    if(e.target.textContent == 'X'){
         if(confirm('Are you sure to delete this task?')){
             e.target.parentElement.remove()
             deleteTaskLS(e.target.parentElement.textContent.slice(0,-1))
